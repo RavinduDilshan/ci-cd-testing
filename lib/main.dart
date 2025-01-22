@@ -33,7 +33,6 @@ class _MyHomePageState extends State<MyHomePage> {
   int _counter = 0;
 
   void _incrementCounter() {
-    print('this commit should avoid by github');
     setState(() {
       _counter++;
     });
